@@ -61,8 +61,25 @@
    2. 运行时（面向执行环境）
       1. 数据结构
          1. 类型
-            1. 7种基本类型
+            1. 8种基本类型
+               1. 值类型
+                  1. null
+                  2. undefined
+                  3. boolean
+                  4. number
+                  5. string
+                  6. Symbol
+                  7. bigint
+               2. 引用类型
+                  1. object
             2. 7中语言类型
+               1. List 和 Record
+               2. Set
+               3. Completion Record
+               4. Reference
+               5. Property Descriptor
+               6. Lexical Environment 和 Environment Record
+               7. Data Block
          2. 实例（内置对象）
       2. 算法
          1. 事件循环
@@ -94,14 +111,20 @@
       2. 技术体系
    2. [工具链](#manage-4)
       1. 建设思路
-   3. 持续集成
+   3. [持续集成](#manage-3)
    4. 搭建系统
+      1. 定义
+      2. 常见类型
    5. 架构与基础库
+      1. 前端架构的主要任务
+         1. 兼容
+         2. 复用
+         3. 能力扩展
 
 # 技术管理的基础
    1. 性能
    2. 发布
-   3. 持续集成
+   3. <a id="manage-3">持续集成</a>
    4. <a id="manage-4">工具链</a>
 
 
